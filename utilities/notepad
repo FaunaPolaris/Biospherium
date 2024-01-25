@@ -1,0 +1,22 @@
+## Biospherium:
+
+Simple digital garden where plants can evolve based on arandom assertment of genes, simulating competition and cooperation so that the organisms can adapt tehmselves to the most extreme of scenarios with ease.
+
+Genetic basis:
+
+    1 2 3 4 5 6 7 8	| Each organism will have a DNA, each DNA being a
+    1 2 3 4 5 6 7 8	|collection 16 groups of 8 numbers ranging from 0 to
+    1 2 3 4 5 6 7 8	|32. All numbers lower than 16 are considered active 
+    1 2 3 4 5 6 7 8	|genes, and they can grow to their determined direction
+    1 2 3 4 5 6 7 8	| valid directions are the four sides of the cell, or
+    1 2 3 4 5 6 7 8	|the diagonals.
+    1 2 3 4 5 6 7 8	| When a gene is active, the cell will grow other
+    1 2 3 4 5 6 7 8	|cells to the determined side, the new cells will hold
+    1 2 3 4 5 6 7 8	|a new sequence of eight numbers from the same DNA,
+    1 2 3 4 5 6 7 8	|based on the number of the active gene.
+    1 2 3 4 5 6 7 8	| Inactive genes do not grow to any direction, but they
+    1 2 3 4 5 6 7 8	|can still affect the effectivness of the organism.
+    1 2 3 4 5 6 7 8	|
+    1 2 3 4 5 6 7 8	|
+    1 2 3 4 5 6 7 8	|
+    1 2 3 4 5 6 7 8	|
