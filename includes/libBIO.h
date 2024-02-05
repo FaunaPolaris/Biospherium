@@ -2,6 +2,7 @@
 #define LIBBIO_H
 
 # include "libfpp.h"
+# include "mapping.h"
 
 typedef struct s_gene
 {
